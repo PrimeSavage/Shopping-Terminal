@@ -1,2 +1,6 @@
 # Shopping Terminal
- 
+In course of completing my task I`ve crated a PHP web page, which meets all the requirements.
+Page meets it's user with a catalogue table. Click on any 'To Basket' button will add chosen product to a basket table to the right. Click on any 'Remove' button will remove chosen product from a basket table. Under a basket table I've put a 'Total' price counter, which calculates a total price of all products in a basket. It also takes into account volume prices of products.
+Catalogue table is being formed from objects initialized in the sourse code. A program is not bound to specific objects though, which means fitting objects can be deleted or added at will.
+Basket table is being formed from a file at the start of a program. Products put into basket are being added to an array from a file. The same way products deleted from basket are being removed from a file. Each button click rewrites file contents.
+Price counter updates at the same time. First each product in basket is being sorted by it's class (w or w/o volume). Products w/o volume go straight to the final counter. Products with volume are being sorted by their names. To facilitate the calculation process, a program transforms input 2-dimension array into a 3-dimension array using a product name as an array item. This allows to simply count a size of each lower array and apply volume parameters. Then received value goes to the final counter, which returns a total price.
