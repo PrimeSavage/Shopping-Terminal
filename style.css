@@ -1,0 +1,24 @@
+body{	
+margin 0;
+padding 0;
+background-attachment:fixed;
+}
+div.main{
+margin-right:25%;
+margin-left:25%;
+margin-top:3%;
+height:500px;
+background-color:#FFE4B5;
+border:2px solid #555555;
+}
+.catalogue{
+	float:left;
+	width: 60%;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.basket{
+	margin-top: 10px;
+	margin-right: 10px;
+	float:right;
+}
